@@ -1,8 +1,13 @@
 ### how to run this project?
+First open your terminal and run this commmand in your terminal.
 
 `go mod tidy`
 
+Now we run our `server`
+
 `go run main.go`
+
+Now, Open another `terminal` tab and make sure our `server` is run.
 
 How to send `GET` method with `CURL`
 
