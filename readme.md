@@ -1,5 +1,7 @@
 ### how to run this project?
-First open your terminal and run this commmand in your terminal.
+First clone this project and make sure enviroment ready for golang
+
+Now, open your terminal and run this commmand in your terminal.
 
 `go mod tidy`
 
@@ -56,6 +58,9 @@ How to `POST` method with `CURL`
 
 `curl -v localhost:9000 -d '{"name":"vivo","price":"95"}' -XPOST  | jq `
 
+
+Update 
+`curl -v localhost:9000/1 -d '{"name":"vivo","price":"95"}' -XPUT | jq`
 
 Now if you hit `curl -v localhost:9000 -XGET | jq ` you will see all products in your terminal.
 
