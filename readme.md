@@ -11,6 +11,10 @@ Now, Open another `terminal` tab and make sure our `server` is run.
 
 How to send `GET` method with `CURL`
 
+`curl -v localhost:9000 -XGET  | jq `
+
+Results:
+
 ```
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
@@ -46,7 +50,7 @@ How to send `GET` method with `CURL`
 
 ```
 
-`curl -v localhost:9000 -XGET  | jq `
+
 
 How to POST `GET` method with `CURL`
 
